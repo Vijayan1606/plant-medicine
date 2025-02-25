@@ -4,7 +4,7 @@ export default function PlantsPage() {
   return (
     <main className="min-h-screen flex flex-col items-center bg-gradient-to-b from-green-100 to-green-300 p-6">
       {/* Title Section */}
-      <h1 className="text-4xl font-extrabold text-green-800 mb-6">🌿 Plant Varieties</h1>
+      <h1 className="text-4xl font-extrabold text-green-800 mb-6">🌿 Medical Plants</h1>
       <p className="text-gray-700 text-lg mb-8 text-center max-w-2xl">
         Explore different plant varieties, their cultivation methods, and medicinal benefits.
       </p>

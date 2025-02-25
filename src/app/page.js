@@ -15,7 +15,7 @@ export default function Home() {
         <div className="max-w-2xl w-full flex flex-col gap-8">
           {/* Plant Varieties Section */}
           <section className="bg-white shadow-md p-8 rounded-2xl text-center border border-green-300 hover:shadow-lg transition-all duration-300">
-            <h2 className="text-2xl font-semibold text-green-700">🌿 Plant Varieties</h2>
+            <h2 className="text-2xl font-semibold text-green-700">🌿 Medical Plants</h2>
             <p className="text-lg text-gray-700 mt-2">
               Discover different plants and their medicinal uses.
             </p>
