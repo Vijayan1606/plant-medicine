@@ -5,34 +5,36 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-24 flex flex-col items-center bg-green-100 p-6">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-          Welcome to Plant Medicine & Spinach Varieties
+      <main className="min-h-screen pt-24 flex flex-col items-center bg-gradient-to-b from-green-100 to-green-300 p-6">
+        {/* Page Title */}
+        <h1 className="text-4xl font-extrabold text-gray-900 mb-10 text-center leading-relaxed">
+          Welcome to <span className="text-green-700">Plant Medicine & Spinach Varieties</span>
         </h1>
 
-        <div className="max-w-lg w-full flex flex-col gap-6">
+        {/* Main Content Container */}
+        <div className="max-w-2xl w-full flex flex-col gap-8">
           {/* Plant Varieties Section */}
-          <section className="bg-white shadow-lg p-8 rounded-lg text-center">
-            <h2 className="text-2xl font-semibold text-green-700">Plant Varieties</h2>
+          <section className="bg-white shadow-md p-8 rounded-2xl text-center border border-green-300 hover:shadow-lg transition-all duration-300">
+            <h2 className="text-2xl font-semibold text-green-700">🌿 Plant Varieties</h2>
             <p className="text-lg text-gray-700 mt-2">
-              Discover different plants and their uses.
+              Discover different plants and their medicinal uses.
             </p>
             <Link href="/plants">
-              <button className="w-full mt-4 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded transition">
-                Explore
+              <button className="w-full mt-5 bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition-all">
+                Explore Plants
               </button>
             </Link>
           </section>
 
           {/* Spinach Varieties Section */}
-          <section className="bg-white shadow-lg p-8 rounded-lg text-center">
-            <h2 className="text-2xl font-semibold text-green-700">Spinach Varieties</h2>
+          <section className="bg-white shadow-md p-8 rounded-2xl text-center border border-green-300 hover:shadow-lg transition-all duration-300">
+            <h2 className="text-2xl font-semibold text-green-700">🥬 Spinach Varieties</h2>
             <p className="text-lg text-gray-700 mt-2">
-              Learn about different spinach types.
+              Learn about different types of spinach and their benefits.
             </p>
             <Link href="/spinach">
-              <button className="w-full mt-4 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded transition">
-                Explore
+              <button className="w-full mt-5 bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition-all">
+                Explore Spinach
               </button>
             </Link>
           </section>

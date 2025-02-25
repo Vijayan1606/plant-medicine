@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Spinach Extract",
+      "uses": "Used in herbal supplements to boost immunity and energy levels.",
+      "benefits": "Rich in antioxidants, supports heart health, and reduces inflammation."
+    },
+    {
+      "id": 2,
+      "name": "Spinach Powder",
+      "uses": "Added to smoothies and drinks for a nutrition boost.",
+      "benefits": "Contains iron and folate, great for anemia and blood circulation."
+    },
+    {
+      "id": 3,
+      "name": "Spinach Oil",
+      "uses": "Applied to skin for anti-aging and sun protection.",
+      "benefits": "Rich in vitamin E and carotenoids, prevents skin damage."
+    },
+    {
+      "id": 4,
+      "name": "Spinach Capsules",
+      "uses": "Taken as a supplement for overall wellness and digestion.",
+      "benefits": "Improves metabolism, aids digestion, and boosts immunity."
+    }
+  ]
+  

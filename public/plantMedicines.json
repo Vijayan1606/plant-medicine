@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "Aloe Vera",
+      "uses": "Used for skin treatment, burns, and digestive health."
+    },
+    {
+      "id": 2,
+      "name": "Tulsi (Holy Basil)",
+      "uses": "Boosts immunity, reduces stress, and fights infections."
+    },
+    {
+      "id": 3,
+      "name": "Neem",
+      "uses": "Has antibacterial properties and helps in skincare."
+    }
+  ]
+  
