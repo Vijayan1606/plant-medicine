@@ -8,7 +8,7 @@ export default function Home() {
       <main className="min-h-screen pt-24 flex flex-col items-center bg-gradient-to-b from-green-100 to-green-300 p-6">
         {/* Page Title */}
         <h1 className="text-4xl font-extrabold text-gray-900 mb-10 text-center leading-relaxed">
-          Welcome to <span className="text-green-700">Plant Medicine & Spinach Varieties</span>
+          Welcome to <span className="text-green-700">Medical Plants & Spinach Varieties</span>
         </h1>
 
         {/* Main Content Container */}
