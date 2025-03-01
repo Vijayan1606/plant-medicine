@@ -1,13 +1,92 @@
 [
-    {
-      "id": 1,
-      "name": "Tomato",
-      "description": "Tomatoes require well-drained soil and full sunlight."
-    },
-    {
-      "id": 2,
-      "name": "Carrot",
-      "description": "Carrots grow best in loose, sandy soil with minimal obstructions."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Tulsi (Holy Basil)",
+    "description": "Known for its antibacterial and antiviral properties, often used in Ayurvedic medicine.",
+    "soil": "Well-drained, fertile soil with good organic matter.",
+    "watering": "Moderate; avoid overwatering.",
+    "climate": "Warm and tropical regions.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tulsi_%28Ocimum_tenuiflorum%29.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aloe Vera",
+    "description": "Used for skin care, wound healing, and digestive health benefits.",
+    "soil": "Sandy, well-drained soil.",
+    "watering": "Minimal; requires less water.",
+    "climate": "Hot and arid conditions.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Aloe_vera_flower.JPG"
+  },
+  {
+    "id": 3,
+    "name": "Neem",
+    "description": "Has antibacterial properties and is widely used for skincare and medicinal treatments.",
+    "soil": "Well-drained, sandy loam soil.",
+    "watering": "Low to moderate.",
+    "climate": "Tropical and subtropical regions.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Neem_tree.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ashwagandha",
+    "description": "An adaptogenic herb known for reducing stress and improving vitality.",
+    "soil": "Sandy, well-drained soil.",
+    "watering": "Light; drought-tolerant.",
+    "climate": "Warm, dry regions.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Ashwagandha_%28Withania_somnifera%29.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Peppermint",
+    "description": "Used for digestive relief and as a natural pain reliever.",
+    "soil": "Rich, moist soil with good drainage.",
+    "watering": "Frequent watering needed.",
+    "climate": "Temperate climate with partial sunlight.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Peppermint_2005.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ginger",
+    "description": "Known for its anti-inflammatory properties and digestive benefits.",
+    "soil": "Loose, fertile, well-drained soil.",
+    "watering": "Moderate, avoid waterlogging.",
+    "climate": "Warm and humid climate.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Koeh-146-no_text.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Turmeric",
+    "description": "Used for its anti-inflammatory and antioxidant properties.",
+    "soil": "Well-drained, sandy or loamy soil.",
+    "watering": "Moderate; needs humidity.",
+    "climate": "Warm, tropical climate.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Turmeric_flower.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Lavender",
+    "description": "Used for relaxation, stress relief, and skincare.",
+    "soil": "Well-drained, slightly alkaline soil.",
+    "watering": "Minimal; drought-tolerant.",
+    "climate": "Mediterranean climate.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lavandula_angustifolia%2C_Lavender.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Echinacea",
+    "description": "Boosts the immune system and helps fight infections.",
+    "soil": "Loamy, well-drained soil.",
+    "watering": "Moderate; drought-resistant.",
+    "climate": "Temperate climate with full sun.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Echinacea_purpurea_P1030080.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Chamomile",
+    "description": "Used for relaxation, digestive health, and skincare.",
+    "soil": "Light, well-drained soil.",
+    "watering": "Light watering; prefers dry conditions.",
+    "climate": "Cool, temperate climate.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Chamomile_herb.JPG"
+  }
+]

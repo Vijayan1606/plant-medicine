@@ -1,82 +1,92 @@
 [
   {
     "id": 1,
-    "name": "Watering Needs",
-    "description": "Requires regular watering to keep the soil moist but not soggy.",
-    "uses": "Helps in faster plant growth and prevents dehydration.",
-    "medicines": "Used in Ayurvedic treatments for hydration.",
-    "application": "Best for home gardening and large-scale farms."
+    "name": "Soil Preparation",
+    "description": "Spinach thrives in well-drained, nutrient-rich soil with a pH between 6.0 and 7.0.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "Loamy, nutrient-rich soil with pH 6.0-7.0",
+    "watering": "Ensure moisture without overwatering",
+    "climate": "Ideal for cool climates, temperate zones"
   },
   {
     "id": 2,
-    "name": "Sunlight Requirements",
-    "description": "Spinach grows best in full sun but can tolerate partial shade.",
-    "uses": "Essential for photosynthesis and healthy growth.",
-    "medicines": "Used in Vitamin D-rich supplements.",
-    "application": "Ideal for rooftop gardens and indoor farming."
+    "name": "Planting Methods",
+    "description": "Spinach can be grown from seeds or transplants in rows or containers.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "Fertile, well-drained soil",
+    "watering": "Moderate, keep soil consistently moist",
+    "climate": "Best for mild temperatures, avoid extreme heat"
   },
   {
     "id": 3,
-    "name": "Soil Preparation",
-    "description": "Prefers well-drained, nutrient-rich soil with a pH between 6.0 and 7.0.",
-    "uses": "Ensures better root development and higher yield.",
-    "medicines": "Improves soil health for medicinal herb farming.",
-    "application": "Recommended for organic farming and hydroponic systems."
+    "name": "Watering Needs",
+    "description": "Requires consistent moisture but should not be overwatered.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "Moist but well-drained",
+    "watering": "Regular, avoid waterlogging",
+    "climate": "Suitable for moderate humidity levels"
   },
   {
     "id": 4,
-    "name": "Temperature Conditions",
-    "description": "Best grown in cool weather between 10°C to 24°C.",
-    "uses": "Prevents bolting and promotes leafy growth.",
-    "medicines": "Used in cooling herbal remedies.",
-    "application": "Suitable for temperate and subtropical regions."
+    "name": "Sunlight Requirements",
+    "description": "Grows best in full sun but tolerates partial shade.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "Adaptable to various soil types",
+    "watering": "Light watering during extreme heat",
+    "climate": "Thrives in sunny but cool conditions"
   },
   {
     "id": 5,
-    "name": "Fertilizer Requirements",
-    "description": "Requires nitrogen-rich fertilizers like compost or organic manure.",
-    "uses": "Boosts leaf production and plant health.",
-    "medicines": "Organic fertilizers enhance medicinal plant growth.",
-    "application": "Used in sustainable and organic farming practices."
+    "name": "Temperature Conditions",
+    "description": "Thrives in cool weather between 10°C to 24°C.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "Rich in organic matter",
+    "watering": "Regular watering during dry spells",
+    "climate": "Best in spring and autumn seasons"
   },
   {
     "id": 6,
-    "name": "Pest Control",
-    "description": "Common pests include aphids, leaf miners, and caterpillars.",
-    "uses": "Using neem oil or companion planting prevents infestations.",
-    "medicines": "Neem extracts are used in organic pest control solutions.",
-    "application": "Best for eco-friendly farming and natural gardens."
+    "name": "Fertilizer Requirements",
+    "description": "Spinach benefits from nitrogen-rich fertilizers.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "Requires nitrogen-enriched soil",
+    "watering": "Balanced with fertilization",
+    "climate": "Fertilization supports growth in various climates"
   },
   {
     "id": 7,
-    "name": "Harvesting Time",
-    "description": "Spinach can be harvested 4-6 weeks after planting.",
-    "uses": "Ensures continuous harvesting for fresh supply.",
-    "medicines": "Used in fresh and dried spinach-based health supplements.",
-    "application": "Ideal for home gardeners and commercial production."
+    "name": "Pest Control",
+    "description": "Common pests include aphids, leaf miners, and caterpillars.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "Healthy soil reduces pest risks",
+    "watering": "Avoid excessive moisture to prevent infestations",
+    "climate": "Proper airflow helps prevent pest issues"
   },
   {
     "id": 8,
-    "name": "Storage & Preservation",
-    "description": "Best stored in cool, humid conditions at 0°C with high humidity.",
-    "uses": "Extends shelf life for fresh market sales.",
-    "medicines": "Dried spinach is used in herbal powders and supplements.",
-    "application": "Essential for food industries and large-scale production."
+    "name": "Disease Management",
+    "description": "Common diseases include downy mildew and root rot.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "Well-draining soil to prevent root rot",
+    "watering": "Avoid overwatering, ensure proper air circulation",
+    "climate": "Cool, dry climates reduce disease spread"
   },
   {
     "id": 9,
-    "name": "Disease Management",
-    "description": "Common diseases include downy mildew and root rot.",
-    "uses": "Practicing crop rotation and using disease-resistant varieties helps.",
-    "medicines": "Organic antifungal treatments are used in plant care.",
-    "application": "Beneficial for organic and sustainable farming methods."
+    "name": "Harvesting Time",
+    "description": "Spinach is ready to harvest 4-6 weeks after planting.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "Retains nutrients for continued growth",
+    "watering": "Maintain consistent moisture before harvesting",
+    "climate": "Harvest in cooler temperatures for best results"
   },
   {
     "id": 10,
-    "name": "Spinach Varieties",
-    "description": "Varieties include Savoy, Semi-Savoy, and Flat-leaf spinach.",
-    "uses": "Each type has unique culinary and nutritional benefits.",
-    "medicines": "Used in diet-based therapies for iron deficiency.",
-    "application": "Best suited for both commercial and home gardening."
+    "name": "Storage & Preservation",
+    "description": "Best stored at 0°C with high humidity to maintain freshness.",
+    "image": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Spinach-FB.jpg",
+    "soil": "No soil needed for storage, but proper handling is required",
+    "watering": "Avoid excess moisture before storage",
+    "climate": "Cold storage extends spinach shelf life"
   }
 ]

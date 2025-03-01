@@ -1,27 +1,92 @@
 [
-    {
-      "id": 1,
-      "name": "Spinach Extract",
-      "uses": "Used in herbal supplements to boost immunity and energy levels.",
-      "benefits": "Rich in antioxidants, supports heart health, and reduces inflammation."
-    },
-    {
-      "id": 2,
-      "name": "Spinach Powder",
-      "uses": "Added to smoothies and drinks for a nutrition boost.",
-      "benefits": "Contains iron and folate, great for anemia and blood circulation."
-    },
-    {
-      "id": 3,
-      "name": "Spinach Oil",
-      "uses": "Applied to skin for anti-aging and sun protection.",
-      "benefits": "Rich in vitamin E and carotenoids, prevents skin damage."
-    },
-    {
-      "id": 4,
-      "name": "Spinach Capsules",
-      "uses": "Taken as a supplement for overall wellness and digestion.",
-      "benefits": "Improves metabolism, aids digestion, and boosts immunity."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Iron-Rich Spinach",
+    "description": "High in iron, helps in treating anemia and boosting hemoglobin levels.",
+    "uses": "Improves oxygen transport and boosts energy levels.",
+    "medicines": "Used in iron supplements and herbal tonics.",
+    "application": "Beneficial for individuals with anemia or low hemoglobin.",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.PliDiropU0aCL7y_loP6CgHaGs&pid=Api"
+  },
+  {
+    "id": 2,
+    "name": "Antioxidant Spinach",
+    "description": "Loaded with vitamins and antioxidants to reduce oxidative stress.",
+    "uses": "Supports immune function and promotes skin health.",
+    "medicines": "Used in anti-aging and detox supplements.",
+    "application": "Ideal for herbal wellness and skincare industries.",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.5o7usTTCUUwxbUkKTuGcDgHaHa&pid=Api"
+  },
+  {
+    "id": 3,
+    "name": "Digestive Health Spinach",
+    "description": "Rich in fiber, supports gut health and improves digestion.",
+    "uses": "Prevents constipation and promotes a healthy digestive system.",
+    "medicines": "Used in herbal teas and digestive tonics.",
+    "application": "Suitable for individuals with digestive disorders.",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.Iu9yeI8QIwIQPyyBnGuSGQHaHa&pid=Api"
+  },
+  {
+    "id": 4,
+    "name": "Bone Strengthening Spinach",
+    "description": "Contains high levels of calcium and vitamin K for bone health.",
+    "uses": "Prevents osteoporosis and strengthens bones.",
+    "medicines": "Used in bone health supplements and herbal remedies.",
+    "application": "Best for aging individuals and post-menopausal women.",
+    "image": "https://herbadiet.in/cdn/shop/products/Cissus-Quadrangularis-50-Powder-Extract.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Heart-Healthy Spinach",
+    "description": "Contains nitrates to regulate blood pressure and improve heart function.",
+    "uses": "Enhances cardiovascular health and circulation.",
+    "medicines": "Used in heart health tonics and herbal medicines.",
+    "application": "Recommended for people with hypertension and heart conditions.",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.dTfdwImSXnG6ei5Usv1wZAHaGk&pid=Api"
+  },
+  {
+    "id": 6,
+    "name": "Diabetes Control Spinach",
+    "description": "Contains natural compounds that help regulate blood sugar levels.",
+    "uses": "Supports insulin sensitivity and prevents glucose spikes.",
+    "medicines": "Used in diabetic care herbal formulations.",
+    "application": "Beneficial for individuals with diabetes or prediabetes.",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.fGKtLbO2CnYDfVi2ybjbtgHaHa&pid=Api"
+  },
+  {
+    "id": 7,
+    "name": "Vision Enhancing Spinach",
+    "description": "Rich in lutein and zeaxanthin to promote eye health.",
+    "uses": "Protects against age-related macular degeneration and improves eyesight.",
+    "medicines": "Found in eye health supplements and vision-boosting products.",
+    "application": "Ideal for individuals with weak eyesight and age-related vision loss.",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.-P9OsTmMl54Gdd1qEkIuTwHaHa&pid=Api"
+  },
+  {
+    "id": 8,
+    "name": "Anti-Inflammatory Spinach",
+    "description": "Contains powerful anti-inflammatory compounds that reduce swelling and pain.",
+    "uses": "Helps with joint pain and reduces chronic inflammation.",
+    "medicines": "Used in arthritis and pain-relief herbal treatments.",
+    "application": "Best for individuals with joint pain or chronic inflammatory conditions.",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.EEzEGB45blghW9a9JAY7hQHaHa&pid=Api"
+  },
+  {
+    "id": 9,
+    "name": "Immune Boosting Spinach",
+    "description": "Packed with essential vitamins and minerals to strengthen immunity.",
+    "uses": "Enhances resistance to infections and improves overall health.",
+    "medicines": "Used in immune-boosting syrups and herbal formulations.",
+    "application": "Recommended for individuals with low immunity.",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.PslnLdxCpC9zXQ-2m_dzvgHaHa&pid=Api"
+  },
+  {
+    "id": 10,
+    "name": "Detoxifying Spinach",
+    "description": "Helps in flushing out toxins and cleansing the body.",
+    "uses": "Supports liver health and purifies the blood.",
+    "medicines": "Found in detox drinks and herbal cleansing programs.",
+    "application": "Ideal for people following detox and cleansing diets.",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.w9QkH1DKMKogE5Mucxik8wHaHa&pid=Api"
+  }
+]

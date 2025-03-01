@@ -1,18 +1,92 @@
 [
-    {
-      "id": 1,
-      "name": "Aloe Vera",
-      "uses": "Used for skin treatment, burns, and digestive health."
-    },
-    {
-      "id": 2,
-      "name": "Tulsi (Holy Basil)",
-      "uses": "Boosts immunity, reduces stress, and fights infections."
-    },
-    {
-      "id": 3,
-      "name": "Neem",
-      "uses": "Has antibacterial properties and helps in skincare."
-    }
-  ]
-  
+  {
+    "id": 11,
+    "name": "Lemongrass",
+    "uses": "Aids digestion, reduces anxiety, and has antibacterial properties.",
+    "soil": "Well-drained loamy soil.",
+    "watering": "Moderate watering, avoid waterlogging.",
+    "climate": "Warm, tropical climates with full sun.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cymbopogon_citratus_-_leaves.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Chamomile",
+    "uses": "Helps with sleep, reduces stress, and soothes stomach issues.",
+    "soil": "Light, well-drained soil.",
+    "watering": "Regular watering but allow soil to dry between waterings.",
+    "climate": "Cool climates with partial sun.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Chamomile_flowers.JPG"
+  },
+  {
+    "id": 13,
+    "name": "Rosemary",
+    "uses": "Improves memory, supports digestion, and has anti-inflammatory properties.",
+    "soil": "Sandy, well-drained soil.",
+    "watering": "Low watering needs; drought-tolerant.",
+    "climate": "Warm Mediterranean climates.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Rosemary_bush.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Thyme",
+    "uses": "Boosts immunity, helps with respiratory issues, and has antibacterial properties.",
+    "soil": "Dry, well-drained soil.",
+    "watering": "Minimal watering; prefers drier conditions.",
+    "climate": "Temperate to warm climates.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Thyme_herb.JPG"
+  },
+  {
+    "id": 15,
+    "name": "Ginseng",
+    "uses": "Boosts energy, reduces stress, and improves cognitive function.",
+    "soil": "Loamy, well-drained soil rich in organic matter.",
+    "watering": "Moderate watering, avoid overwatering.",
+    "climate": "Cool, shaded forest areas.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ginseng.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Dandelion",
+    "uses": "Supports liver health, aids digestion, and has diuretic properties.",
+    "soil": "Adaptable to various soils but prefers well-drained soil.",
+    "watering": "Regular watering but can tolerate drought.",
+    "climate": "Temperate climates with full to partial sun.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/DandelionFlower.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Sage",
+    "uses": "Supports brain health, reduces inflammation, and helps with sore throat.",
+    "soil": "Sandy or loamy, well-drained soil.",
+    "watering": "Low watering needs; drought-tolerant.",
+    "climate": "Mediterranean climates with full sun.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Salvia_officinalis_%28Sage%29_leaves.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Valerian",
+    "uses": "Helps with sleep, reduces anxiety, and relaxes muscles.",
+    "soil": "Moist, well-drained soil rich in organic matter.",
+    "watering": "Frequent watering to maintain moisture.",
+    "climate": "Cool, temperate climates with partial shade.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Valeriana_officinalis_002.JPG"
+  },
+  {
+    "id": 19,
+    "name": "Gotu Kola",
+    "uses": "Boosts cognitive function, promotes wound healing, and supports skin health.",
+    "soil": "Moist, loamy soil with good drainage.",
+    "watering": "Frequent watering, prefers damp conditions.",
+    "climate": "Tropical and subtropical climates.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Centella_asiatica.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Licorice",
+    "uses": "Soothes sore throat, supports digestive health, and reduces inflammation.",
+    "soil": "Sandy, well-drained soil.",
+    "watering": "Moderate watering; avoid overwatering.",
+    "climate": "Warm climates with full sun.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Glycyrrhiza_glabra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-063.jpg"
+  }
+]
