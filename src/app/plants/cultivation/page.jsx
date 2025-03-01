@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import WaveBackground from "../../components/WaveBackground"; // Import Three.js Background
 
 export default function PlantCultivation() {
   const [plants, setPlants] = useState([]);
@@ -13,15 +14,18 @@ export default function PlantCultivation() {
   }, []);
 
   return (
-    <main className="min-h-screen flex flex-col items-center bg-gradient-to-b from-green-100 to-green-300 p-6">
+    <main className="relative min-h-screen flex flex-col items-center bg-transparent p-6">
+      {/* Three.js Wave Background */}
+      <WaveBackground />
+
       {/* Title Section */}
-      <h1 className="text-4xl font-extrabold text-green-800 mb-4">🌱 Plant Cultivation</h1>
-      <p className="text-gray-700 text-lg mb-8 text-center max-w-2xl">
+      <h1 className="text-4xl font-extrabold text-white mb-4">🌱 Plant Cultivation</h1>
+      <p className="text-gray-200 text-lg mb-8 text-center max-w-2xl">
         Learn the best practices for cultivating plants, including soil preparation, watering, and care.
       </p>
 
       {/* Container for plant information */}
-      <div className="w-full max-w-3xl bg-white p-6 rounded-2xl shadow-lg">
+      <div className="w-full max-w-3xl bg-white p-6 rounded-2xl shadow-lg border border-green-200">
         {plants.length > 0 ? (
           <div className="space-y-6">
             {plants.map((plant) => (

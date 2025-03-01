@@ -1,22 +1,26 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import WaveBackground from "../../components/WaveBackground"; // Import Three.js Background
 
 export default function SpinachMedicines() {
   const [medicines, setMedicines] = useState([]);
 
   useEffect(() => {
-    fetch("/spinachMedicines.json") // Fetch JSON from public folder
+    fetch("/spinachMedicines.json") // Fetch JSON from the public folder
       .then((response) => response.json())
       .then((data) => setMedicines(data))
       .catch((error) => console.error("Error loading JSON:", error));
   }, []);
 
   return (
-    <main className="min-h-screen flex flex-col items-center bg-gradient-to-b from-green-100 to-green-300 p-6">
+    <main className="relative min-h-screen flex flex-col items-center bg-transparent p-6">
+      {/* Three.js Wave Background */}
+      <WaveBackground />
+
       {/* Title Section */}
-      <h1 className="text-4xl font-extrabold text-green-800 mb-6">💊 Spinach Medicines</h1>
-      <p className="text-gray-700 text-lg mb-8 text-center max-w-2xl">
+      <h1 className="text-4xl font-extrabold text-white mb-6">💊 Spinach Medicines</h1>
+      <p className="text-gray-200 text-lg mb-8 text-center max-w-2xl">
         Learn about the medicinal properties of spinach and its health benefits.
       </p>
 
