@@ -9,10 +9,74 @@
   },
   {
     "id": 2,
+    "name": "Sunlight Requirements",
+    "description": "Spinach grows best in full sun but can tolerate partial shade.",
+    "uses": "Essential for photosynthesis and healthy growth.",
+    "medicines": "Used in Vitamin D-rich supplements.",
+    "application": "Ideal for rooftop gardens and indoor farming."
+  },
+  {
+    "id": 3,
     "name": "Soil Preparation",
-    "description": "Loamy soil with good drainage is ideal for spinach cultivation.",
-    "uses": "Enables better root growth and nutrient absorption.",
-    "medicines": "Improves soil fertility and plant health.",
-    "application": "Recommended for organic farming and sustainable agriculture."
+    "description": "Prefers well-drained, nutrient-rich soil with a pH between 6.0 and 7.0.",
+    "uses": "Ensures better root development and higher yield.",
+    "medicines": "Improves soil health for medicinal herb farming.",
+    "application": "Recommended for organic farming and hydroponic systems."
+  },
+  {
+    "id": 4,
+    "name": "Temperature Conditions",
+    "description": "Best grown in cool weather between 10°C to 24°C.",
+    "uses": "Prevents bolting and promotes leafy growth.",
+    "medicines": "Used in cooling herbal remedies.",
+    "application": "Suitable for temperate and subtropical regions."
+  },
+  {
+    "id": 5,
+    "name": "Fertilizer Requirements",
+    "description": "Requires nitrogen-rich fertilizers like compost or organic manure.",
+    "uses": "Boosts leaf production and plant health.",
+    "medicines": "Organic fertilizers enhance medicinal plant growth.",
+    "application": "Used in sustainable and organic farming practices."
+  },
+  {
+    "id": 6,
+    "name": "Pest Control",
+    "description": "Common pests include aphids, leaf miners, and caterpillars.",
+    "uses": "Using neem oil or companion planting prevents infestations.",
+    "medicines": "Neem extracts are used in organic pest control solutions.",
+    "application": "Best for eco-friendly farming and natural gardens."
+  },
+  {
+    "id": 7,
+    "name": "Harvesting Time",
+    "description": "Spinach can be harvested 4-6 weeks after planting.",
+    "uses": "Ensures continuous harvesting for fresh supply.",
+    "medicines": "Used in fresh and dried spinach-based health supplements.",
+    "application": "Ideal for home gardeners and commercial production."
+  },
+  {
+    "id": 8,
+    "name": "Storage & Preservation",
+    "description": "Best stored in cool, humid conditions at 0°C with high humidity.",
+    "uses": "Extends shelf life for fresh market sales.",
+    "medicines": "Dried spinach is used in herbal powders and supplements.",
+    "application": "Essential for food industries and large-scale production."
+  },
+  {
+    "id": 9,
+    "name": "Disease Management",
+    "description": "Common diseases include downy mildew and root rot.",
+    "uses": "Practicing crop rotation and using disease-resistant varieties helps.",
+    "medicines": "Organic antifungal treatments are used in plant care.",
+    "application": "Beneficial for organic and sustainable farming methods."
+  },
+  {
+    "id": 10,
+    "name": "Spinach Varieties",
+    "description": "Varieties include Savoy, Semi-Savoy, and Flat-leaf spinach.",
+    "uses": "Each type has unique culinary and nutritional benefits.",
+    "medicines": "Used in diet-based therapies for iron deficiency.",
+    "application": "Best suited for both commercial and home gardening."
   }
 ]
