@@ -1,18 +1,18 @@
 [
-    {
-      "id": 1,
-      "name": "Soil Preparation",
-      "description": "Use well-drained, nutrient-rich soil with a pH of 6.5 to 7.5."
-    },
-    {
-      "id": 2,
-      "name": "Planting Season",
-      "description": "Spinach grows best in cool weather. Ideal temperatures range from 10°C to 20°C."
-    },
-    {
-      "id": 3,
-      "name": "Watering Needs",
-      "description": "Requires regular watering to keep the soil moist but not soggy."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Watering Needs",
+    "description": "Requires regular watering to keep the soil moist but not soggy.",
+    "uses": "Helps in faster plant growth and prevents dehydration.",
+    "medicines": "Used in Ayurvedic treatments for hydration.",
+    "application": "Best for home gardening and large-scale farms."
+  },
+  {
+    "id": 2,
+    "name": "Soil Preparation",
+    "description": "Loamy soil with good drainage is ideal for spinach cultivation.",
+    "uses": "Enables better root growth and nutrient absorption.",
+    "medicines": "Improves soil fertility and plant health.",
+    "application": "Recommended for organic farming and sustainable agriculture."
+  }
+]
