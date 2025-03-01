@@ -1,13 +1,16 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    experimental: {
-      appDir: true, // Ensures App Router compatibility
-    },
+module.exports = {
     webpack: (config) => {
-      config.resolve.extensions.push('.js', '.jsx');
+      config.module.rules.push({
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["next/babel"],
+          },
+        },
+      });
       return config;
     },
   };
-  
-  export default nextConfig;
   
