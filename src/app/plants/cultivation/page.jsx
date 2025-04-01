@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import WaveBackground from "../../components/WaveBackground"; // Three.js Background
 
 export default function PlantCultivation() {
   const [plants, setPlants] = useState([]);
@@ -17,7 +18,8 @@ export default function PlantCultivation() {
 
   return (
     <main className="relative min-h-screen flex flex-col items-center bg-transparent p-6">
- 
+      {/* Three.js Background */}
+      <WaveBackground />
 
       {/* Title Section */}
       <h1 className="text-4xl font-extrabold text-white mb-6">🌱 Cultivation Plants</h1>
