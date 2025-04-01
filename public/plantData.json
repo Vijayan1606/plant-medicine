@@ -2,91 +2,172 @@
   {
     "id": 1,
     "name": "Tulsi (Holy Basil)",
-    "description": "Known for its antibacterial and antiviral properties, often used in Ayurvedic medicine.",
-    "soil": "Well-drained, fertile soil with good organic matter.",
-    "watering": "Moderate; avoid overwatering.",
-    "climate": "Warm and tropical regions.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tulsi_%28Ocimum_tenuiflorum%29.jpg"
+    "description": "Tulsi, revered in Ayurveda, is known for its immense medicinal benefits and easy cultivation. Below is an overview of its Ayurvedic uses and cultivation guidelines.​",
+    "medical_uses": {
+      "Respiratory Health:": "Tulsi is known to relieve cough, cold, asthma, and bronchitis by reducing congestion and inflammation in the respiratory tract.",
+      "Immunity Booster": "Tulsi possesses powerful adaptogenic and antimicrobial properties that help strengthen the immune system.",
+      "Digestive Health: ": "Tulsi promotes digestion, reduces bloating, and helps relieve acidity and stomach ulcers.",
+      "Mental Well-being: ": "Tulsi has a calming effect on the nervous system, helping to relieve stress, anxiety, and headaches.",
+      "Skin & Hair Care": "Tulsi purifies the blood, treats acne, and helps with scalp issues like dandruff and hair fall"
+    },
+    "cultivation_process": {
+      "temperature": "Tulsi grows best in warm climates, thriving at temperatures between 70°F to 95°F (21°C to 35°C).",
+      "soil_type": "It prefers well-drained, fertile soil with a neutral to slightly alkaline pH. Avoid waterlogged conditions.",
+      "watering": "Water regularly but avoid overwatering. Allow the top layer of soil to dry out between watering.",
+      "sunlight": "Requires full sun exposure, at least 6 to 8 hours of sunlight daily."
+    },
+    "image": "/assests/tulsi.png"
   },
   {
     "id": 2,
     "name": "Aloe Vera",
-    "description": "Used for skin care, wound healing, and digestive health benefits.",
-    "soil": "Sandy, well-drained soil.",
-    "watering": "Minimal; requires less water.",
-    "climate": "Hot and arid conditions.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Aloe_vera_flower.JPG"
+    "description": "Aloe vera, known as 'Kumari' in Ayurveda, is esteemed for its diverse medicinal applications and straightforward cultivation requirements. Below is a comprehensive overview of its Ayurvedic uses and cultivation guidelines.​",
+    "medical_uses": {
+      "digestive_health": "Aloe vera is valued for its ability to support gastrointestinal health, promote optimal digestion, and relieve digestive discomfort.",
+      "skin_care": "Aloe vera has a cooling effect on the skin and can be used for skincare, sunburns, acne, etc.",
+      "hair_care": "Aloe vera improves hair quality, prevents hair fall, and cures dandruff.",
+      "womens_health": "Aloe vera improves ovulation chances and induces menstruation when used with other related Ayurvedic medicines.",
+      "respiratory_relief": "Aloe vera can be used to relieve attacks of breathlessness and wheezing."
+    },
+    "cultivation_process": {
+      "temperature": "Aloe vera thrives in temperatures ranging from 55°F to 80°F (13°C to 27°C).",
+      "soil_type": "The plant can be grown in a variety of soils ranging from sandy coastal soils to loamy soils of plains. It is sensitive to waterlogged conditions.",
+      "watering": "Aloe is drought tolerant; only water your plant when the top inch of soil is dry to the touch. When you do water, water it well, but never let your plant sit in water.",
+      "sunlight": "Aloe vera thrives in bright, indirect sunlight, requiring at least six hours of light daily for optimal growth."
+    },
+    "image": "/assests/aloe.png"
   },
   {
     "id": 3,
-    "name": "Neem",
-    "description": "Has antibacterial properties and is widely used for skincare and medicinal treatments.",
-    "soil": "Well-drained, sandy loam soil.",
-    "watering": "Low to moderate.",
-    "climate": "Tropical and subtropical regions.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Neem_tree.jpg"
+    "name": "Neem (Azadirachta indica)",
+    "description": "Neem, often referred to as the 'village pharmacy,' is a versatile plant with a wide range of medicinal properties and easy cultivation. Below is an overview of its Ayurvedic uses and cultivation guidelines.​",
+    "medical_uses": {
+      "Skin Health": "Neem is known for its ability to treat skin conditions like acne, eczema, and psoriasis due to its antibacterial and antifungal properties.",
+      "Immunity Booster": "Neem strengthens the immune system by detoxifying the body and promoting overall wellness.",
+      "Detoxification": "Neem acts as a natural detoxifier, purifying the blood and supporting liver health.",
+      "Dental Health": "Neem is effective in preventing gum disease, cavities, and promoting healthy teeth due to its antimicrobial properties.",
+      "Digestive Health": "Neem helps in improving digestion, reducing bloating, and fighting gastrointestinal infections."
+    },
+    "cultivation_process": {
+      "temperature": "Neem thrives in hot climates and prefers temperatures ranging from 75°F to 100°F (24°C to 38°C).",
+      "soil_type": "It prefers well-drained, sandy loam or clay soils with a slightly alkaline pH. It is highly tolerant of drought and poor soil conditions.",
+      "watering": "Neem is drought-resistant and requires minimal watering. Water when the soil appears dry, but avoid waterlogging.",
+      "sunlight": "Neem requires full sunlight for optimal growth, ideally receiving at least 6 to 8 hours of direct sunlight daily."
+    },
+    "image": "/assests/neem.png"
   },
   {
     "id": 4,
-    "name": "Ashwagandha",
-    "description": "An adaptogenic herb known for reducing stress and improving vitality.",
-    "soil": "Sandy, well-drained soil.",
-    "watering": "Light; drought-tolerant.",
-    "climate": "Warm, dry regions.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Ashwagandha_%28Withania_somnifera%29.jpg"
+    "name": "Ashwagandha (Withania somnifera)",
+    "description": "Ashwagandha, also known as 'Indian ginseng,' is a powerful adaptogen revered in Ayurveda for its ability to reduce stress, improve vitality, and enhance overall well-being. Below is an overview of its Ayurvedic uses and cultivation guidelines.​",
+    "medical_uses": {
+      "Stress Relief": "Ashwagandha is known for its adaptogenic properties, helping to reduce stress and anxiety by regulating cortisol levels in the body.",
+      "Immunity Booster": "Ashwagandha strengthens the immune system by increasing the production of white blood cells and improving overall health.",
+      "Energy & Vitality": "It enhances physical energy and stamina, making it a natural remedy for fatigue and weakness.",
+      "Cognitive Health": "Ashwagandha supports brain function, improves memory, and helps protect against age-related cognitive decline.",
+      "Hormonal Balance": "Ashwagandha can help balance hormones, particularly in managing thyroid and adrenal function, aiding in fertility and reproductive health."
+    },
+    "cultivation_process": {
+      "temperature": "Ashwagandha thrives in warm, dry climates, preferring temperatures between 75°F to 95°F (24°C to 35°C).",
+      "soil_type": "It grows best in well-drained, sandy or loamy soils with a slightly alkaline pH.",
+      "watering": "Ashwagandha is drought-tolerant and should be watered sparingly. Water the plant moderately during dry periods but avoid overwatering.",
+      "sunlight": "Ashwagandha requires full sunlight and prefers a location with at least 6 hours of direct sunlight daily."
+    },
+    "image": "/assests/ash.png"
   },
   {
     "id": 5,
-    "name": "Peppermint",
-    "description": "Used for digestive relief and as a natural pain reliever.",
-    "soil": "Rich, moist soil with good drainage.",
-    "watering": "Frequent watering needed.",
-    "climate": "Temperate climate with partial sunlight.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Peppermint_2005.jpg"
+    "name": "Peppermint (Mentha × piperita)",
+    "description": "Peppermint is a hybrid mint, known for its refreshing aroma and numerous medicinal benefits. It is widely used in Ayurvedic medicine for its ability to support digestion, relieve headaches, and improve mental clarity. Below is an overview of its Ayurvedic uses and cultivation guidelines.​",
+    "medical_uses": {
+      "Digestive Health": "Peppermint is well-known for its ability to relieve indigestion, bloating, and nausea. It helps relax the muscles of the gastrointestinal tract, easing discomfort.",
+      "Headache Relief": "Peppermint oil is commonly used to alleviate tension headaches by improving blood circulation and relaxing the muscles in the head and neck.",
+      "Respiratory Health": "Peppermint has a soothing effect on the respiratory system, helping to relieve symptoms of asthma, congestion, and cold-related coughs.",
+      "Mental Clarity": "Peppermint is known to enhance focus and mental clarity, often used to reduce mental fatigue and improve concentration.",
+      "Skin Care": "Peppermint has cooling and soothing properties, making it effective for treating skin irritations, itching, and inflammation."
+    },
+    "cultivation_process": {
+      "temperature": "Peppermint grows best in moderate climates, preferring temperatures between 60°F to 70°F (15°C to 21°C).",
+      "soil_type": "It thrives in moist, well-drained soils, typically rich in organic matter, and prefers slightly acidic to neutral soil with a pH of 6.0 to 7.0.",
+      "watering": "Peppermint requires regular watering, ensuring the soil remains moist but not waterlogged. It prefers consistent moisture, especially during hot weather.",
+      "sunlight": "Peppermint prefers partial sunlight, doing best in areas with indirect light or light shade, though it can tolerate some direct sunlight."
+    },
+    "image": "/assests/mint.png"
   },
   {
     "id": 6,
-    "name": "Ginger",
-    "description": "Known for its anti-inflammatory properties and digestive benefits.",
-    "soil": "Loose, fertile, well-drained soil.",
-    "watering": "Moderate, avoid waterlogging.",
-    "climate": "Warm and humid climate.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Koeh-146-no_text.jpg"
+    "name": "Ginger (Zingiber officinale)",
+    "description": "Ginger is a flowering plant widely used in Ayurveda for its medicinal properties, especially for its ability to alleviate digestive issues, reduce inflammation, and support overall health. Below is an overview of its Ayurvedic uses and cultivation guidelines.​",
+    "medical_uses": {
+      "Digestive Health": "Ginger is highly regarded for its ability to promote digestion, reduce bloating, and relieve nausea, especially in cases of motion sickness or morning sickness.",
+      "Anti-inflammatory": "Ginger has powerful anti-inflammatory properties, making it useful for reducing pain and swelling in conditions like arthritis and muscle soreness.",
+      "Immune System Support": "Ginger helps to strengthen the immune system by fighting off infections, reducing inflammation, and promoting healthy circulation.",
+      "Respiratory Health": "Ginger is used to treat respiratory issues like cough, cold, and sore throat, thanks to its antimicrobial and soothing properties.",
+      "Pain Relief": "Ginger is often used as a natural remedy for headaches, menstrual pain, and muscle aches due to its analgesic properties."
+    },
+    "cultivation_process": {
+      "temperature": "Ginger thrives in warm, tropical climates with temperatures ranging from 75°F to 85°F (24°C to 29°C).",
+      "soil_type": "Ginger prefers loose, well-drained, fertile soil rich in organic matter. It requires slightly acidic to neutral soil with a pH of 5.5 to 6.5.",
+      "watering": "Ginger needs frequent watering, especially during its growing season, but the soil should be well-drained to prevent waterlogging.",
+      "sunlight": "Ginger grows best in partial shade to full sunlight, ideally in areas with indirect light, as direct sunlight can scorch its leaves."
+    },
+    "image": "/assests/gin.png"
   },
   {
     "id": 7,
-    "name": "Turmeric",
-    "description": "Used for its anti-inflammatory and antioxidant properties.",
-    "soil": "Well-drained, sandy or loamy soil.",
-    "watering": "Moderate; needs humidity.",
-    "climate": "Warm, tropical climate.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Turmeric_flower.jpg"
+    "name": "Turmeric (Curcuma longa)",
+    "description": "Turmeric, a golden-yellow spice derived from the root of Curcuma longa, is widely recognized in Ayurveda for its powerful anti-inflammatory, antioxidant, and healing properties. Below is an overview of its Ayurvedic uses and cultivation guidelines.​",
+    "medical_uses": {
+      "Anti-inflammatory": "Turmeric is widely known for its potent anti-inflammatory properties, helping to alleviate pain and inflammation in conditions like arthritis and muscle soreness.",
+      "Antioxidant": "Turmeric is rich in curcumin, a powerful antioxidant that helps combat free radical damage, supporting cellular health and slowing the aging process.",
+      "Digestive Health": "Turmeric promotes digestion, relieves indigestion, bloating, and discomfort, and supports the liver in detoxification processes.",
+      "Skin Health": "Turmeric is used in Ayurveda to treat skin conditions like acne, eczema, and psoriasis, and it also helps to brighten and even out skin tone.",
+      "Immune System Support": "Turmeric boosts immunity by enhancing the body's ability to fight off infections and reducing the risk of chronic diseases."
+    },
+    "cultivation_process": {
+      "temperature": "Turmeric thrives in warm, tropical climates with temperatures ranging from 75°F to 95°F (24°C to 35°C).",
+      "soil_type": "Turmeric prefers well-drained, loamy, fertile soil rich in organic matter, with a slightly acidic pH range of 5.5 to 6.5.",
+      "watering": "Turmeric requires regular watering, especially during its growing season, but the soil should not be waterlogged. It prefers moist, humid conditions.",
+      "sunlight": "Turmeric needs full sun to partial shade, with at least 6 to 8 hours of sunlight daily to thrive."
+    },
+    "image": "/assests/tur.png"
   },
   {
     "id": 8,
-    "name": "Lavender",
-    "description": "Used for relaxation, stress relief, and skincare.",
-    "soil": "Well-drained, slightly alkaline soil.",
-    "watering": "Minimal; drought-tolerant.",
-    "climate": "Mediterranean climate.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lavandula_angustifolia%2C_Lavender.jpg"
+    "name": "Lavender (Lavandula angustifolia)",
+    "description": "Lavender is a fragrant herb commonly used in aromatherapy and known for its calming and healing properties. It is also prized for its ornamental beauty and versatile applications in herbal medicine. Below is an overview of its Ayurvedic uses and cultivation guidelines.​",
+    "medical_uses": {
+      "Stress Relief": "Lavender is renowned for its calming properties, helping to reduce stress, anxiety, and promote restful sleep. It is commonly used in aromatherapy to ease tension and improve relaxation.",
+      "Pain Relief": "Lavender oil has analgesic properties and can be used to relieve headaches, muscle pain, and menstrual cramps.",
+      "Skin Care": "Lavender is used to treat skin conditions like acne, eczema, and psoriasis. It has antimicrobial and anti-inflammatory properties that help soothe irritated skin.",
+      "Digestive Health": "Lavender aids digestion by reducing bloating, gas, and indigestion. It also helps relieve nausea and vomiting.",
+      "Hair Care": "Lavender promotes hair growth and is often used to treat dandruff and scalp irritation. It is also thought to improve the overall health and texture of hair."
+    },
+    "cultivation_process": {
+      "temperature": "Lavender thrives in temperate climates, preferring temperatures between 60°F to 80°F (15°C to 27°C).",
+      "soil_type": "Lavender prefers well-drained, sandy or loamy soil with a slightly alkaline pH. It does not tolerate heavy or waterlogged soils.",
+      "watering": "Lavender is drought-tolerant and requires infrequent watering. Water the plant when the soil is dry to the touch, but avoid overwatering, as it can cause root rot.",
+      "sunlight": "Lavender requires full sun exposure for at least 6 to 8 hours a day to grow properly and produce abundant flowers."
+    },
+    "image": "/assests/lav.png"
   },
   {
     "id": 9,
-    "name": "Echinacea",
-    "description": "Boosts the immune system and helps fight infections.",
-    "soil": "Loamy, well-drained soil.",
-    "watering": "Moderate; drought-resistant.",
-    "climate": "Temperate climate with full sun.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Echinacea_purpurea_P1030080.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Chamomile",
-    "description": "Used for relaxation, digestive health, and skincare.",
-    "soil": "Light, well-drained soil.",
-    "watering": "Light watering; prefers dry conditions.",
-    "climate": "Cool, temperate climate.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Chamomile_herb.JPG"
+    "name": "Chamomile (Matricaria chamomilla)",
+    "description": "Chamomile is a well-known herb prized for its soothing and calming effects. It has been used for centuries in both herbal medicine and as a fragrant tea to promote relaxation and relieve various health issues. Below is an overview of its Ayurvedic uses and cultivation guidelines.​",
+    "medical_uses": {
+      "Stress Relief": "Chamomile is widely recognized for its ability to reduce stress, anxiety, and promote better sleep. Chamomile tea is often consumed before bed to induce relaxation and alleviate insomnia.",
+      "Digestive Health": "Chamomile aids in digestion, helping to relieve indigestion, bloating, and abdominal discomfort. It is also used to treat irritable bowel syndrome (IBS) and reduce gas.",
+      "Skin Care": "Chamomile has anti-inflammatory and antimicrobial properties, making it effective in treating skin irritations, rashes, eczema, and minor wounds. It also helps to soothe sunburns and reduce puffiness around the eyes.",
+      "Pain Relief": "Chamomile can help relieve mild pain, including headaches and menstrual cramps. It is often used as a natural remedy for muscle pain and spasms.",
+      "Immune Support": "Chamomile is believed to support the immune system and may help prevent colds and flu, especially when consumed as a tea."
+    },
+    "cultivation_process": {
+      "temperature": "Chamomile thrives in mild temperatures, typically between 60°F to 68°F (15°C to 20°C), and prefers cool climates.",
+      "soil_type": "Chamomile prefers well-drained, sandy, or loamy soil with a slightly acidic to neutral pH. It is tolerant of poor soil conditions but requires good drainage.",
+      "watering": "Chamomile requires moderate watering. Keep the soil moist but not waterlogged. Water when the top of the soil feels dry, but ensure proper drainage to prevent root rot.",
+      "sunlight": "Chamomile grows best in full sun, requiring at least 4 to 6 hours of direct sunlight per day to thrive and produce flowers."
+    },
+    "image": "/assests/cha.png"
   }
 ]

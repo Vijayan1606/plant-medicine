@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "name": "Bloomsdale Long Standing Spinach",
+    "description": "Bloomsdale Long Standing Spinach is a popular variety known for its dark, curly leaves and robust flavor. It is perfect for both raw and cooked applications and is known for its resistance to bolting.",
+    "medical_uses": {
+      "Rich in Iron": "Bloomsdale spinach is an excellent source of iron, helping in the production of red blood cells and promoting overall energy levels.",
+      "Rich in Vitamins": "It is high in vitamins A, C, and K, which help with vision, immune function, and bone health.",
+      "Digestive Health": "Rich in fiber, Bloomsdale spinach aids in digestion and promotes healthy bowel movements."
+    },
+    "cultivation_process": {
+      "temperature": "Best grown in cool temperatures, between 50°F to 65°F (10°C to 18°C).",
+      "soil_type": "Prefers well-drained, loamy soil rich in organic matter with a slightly acidic to neutral pH.",
+      "watering": "Water regularly to keep the soil consistently moist but not waterlogged.",
+      "sunlight": "Requires full sun to partial shade, with at least 6 hours of sunlight daily."
+    },
+    "image": "/assests/bloo.png"
+  },
+  {
+    "id": 2,
+    "name": "Baby Spinach",
+    "description": "Baby spinach is harvested when the leaves are still young and tender, offering a mild flavor and high nutritional value. It’s typically used in salads, smoothies, and sandwiches.",
+    "medical_uses": {
+      "High in Antioxidants": "Baby spinach is rich in antioxidants, which help combat free radicals and reduce oxidative stress in the body.",
+      "Promotes Eye Health": "The high vitamin A and beta-carotene content in baby spinach contributes to maintaining good vision and eye health.",
+      "Supports Heart Health": "The folate and potassium content in baby spinach help lower blood pressure and improve heart health."
+    },
+    "cultivation_process": {
+      "temperature": "Grows best in temperatures between 50°F to 70°F (10°C to 21°C).",
+      "soil_type": "Prefers fertile, well-drained soil with a slightly acidic pH between 6.0 to 7.0.",
+      "watering": "Requires regular watering to maintain moisture, but avoid waterlogging.",
+      "sunlight": "Needs full sun to partial shade, thriving in areas with about 4 to 6 hours of sunlight daily."
+    },
+    "image": "/assests/baby.png"
+  },
+  {
+    "id": 3,
+    "name": "Savoy Spinach",
+    "description": "Savoy spinach has curly, crinkled leaves and a more robust flavor compared to other varieties. It is commonly used in cooked dishes such as soups and stews due to its hearty texture.",
+    "medical_uses": {
+      "Bone Health": "High in calcium, which is vital for strong bones and preventing osteoporosis.",
+      "Boosts Immune System": "Rich in vitamins A and C, helping to strengthen the immune system and protect against illnesses.",
+      "Anti-inflammatory": "The antioxidants and anti-inflammatory compounds in Savoy spinach help reduce inflammation and protect against chronic conditions."
+    },
+    "cultivation_process": {
+      "temperature": "Ideal growing temperature is between 50°F to 60°F (10°C to 15°C).",
+      "soil_type": "Prefers deep, fertile soil with a slightly alkaline to neutral pH.",
+      "watering": "Regular watering is required to keep the soil moist but not soggy.",
+      "sunlight": "Best grown in full sunlight, although it can tolerate partial shade."
+    },
+    "image": "/assests/savoy.png"
+  },
+  {
+    "id": 4,
+    "name": "Teton Spinach",
+    "description": "Teton spinach is a newer variety known for its resistance to disease and its ability to grow well in hot weather, making it ideal for summer gardens.",
+    "medical_uses": {
+      "Rich in Fiber": "Teton spinach is high in fiber, which helps regulate digestion and prevent constipation.",
+      "Heart Health": "The folate, potassium, and magnesium in Teton spinach help reduce the risk of cardiovascular diseases.",
+      "Blood Pressure Regulation": "Rich in nitrates, it may help in lowering high blood pressure and improving vascular function."
+    },
+    "cultivation_process": {
+      "temperature": "Teton spinach thrives in temperatures ranging from 60°F to 85°F (15°C to 29°C).",
+      "soil_type": "Prefers loamy, well-drained soil with a neutral pH.",
+      "watering": "Ensure regular watering to keep the soil moist, especially during dry periods.",
+      "sunlight": "Needs full sun to partial shade, with 6 to 8 hours of sunlight daily."
+    },
+    "image": "/assests/tet.png"
+  },
+  {
+    "id": 5,
+    "name": "New Zealand Spinach",
+    "description": "New Zealand spinach, unlike traditional spinach, is a heat-tolerant perennial plant. It has thick, fleshy leaves and is typically used in cooked dishes.",
+    "medical_uses": {
+      "Hydration": "The high water content in New Zealand spinach helps to keep the body hydrated, especially in hot climates.",
+      "Supports Skin Health": "Rich in antioxidants and vitamins, it helps protect the skin from environmental stressors and promotes youthful skin.",
+      "Good for Digestion": "The dietary fiber in New Zealand spinach aids digestion and promotes regular bowel movements."
+    },
+    "cultivation_process": {
+      "temperature": "New Zealand spinach grows best in warmer temperatures, ranging from 60°F to 85°F (15°C to 29°C).",
+      "soil_type": "Prefers well-drained, sandy loam soil with a slightly alkaline pH.",
+      "watering": "Water regularly, especially during dry spells, but avoid waterlogging.",
+      "sunlight": "Needs full sun exposure for optimal growth, but can tolerate some shade."
+    },
+    "image": "/assests/new.png"
+  },
+  {
+    "id": 6,
+    "name": "Flat-leaf Spinach",
+    "description": "Flat-leaf spinach is known for its smooth, broad leaves, making it ideal for processing and pre-packaged spinach products. It has a mild flavor and is commonly used in salads and smoothies.",
+    "medical_uses": {
+      "Boosts Immune Function": "Rich in vitamins A and C, Flat-leaf spinach helps to strengthen the immune system and protect against infections.",
+      "Supports Eye Health": "The high levels of beta-carotene and lutein in Flat-leaf spinach promote eye health and reduce the risk of macular degeneration.",
+      "Anti-Cancer Properties": "Flat-leaf spinach contains antioxidants and compounds like chlorophyll, which may help in reducing cancer risk."
+    },
+    "cultivation_process": {
+      "temperature": "Best grown in cooler temperatures between 45°F to 65°F (7°C to 18°C).",
+      "soil_type": "Prefers well-drained, fertile soil with a pH between 6.5 and 7.0.",
+      "watering": "Regular watering is necessary, but avoid over-watering as it can cause root rot.",
+      "sunlight": "Requires full sun for 6 to 8 hours a day to grow optimally."
+    },
+    "image": "/assests/flat.png"
+  },
+  {
+    "id": 7,
+    "name": "Red-veined Sorrel",
+    "description": "Though technically a different species, Red-veined Sorrel is often grouped with spinach for culinary purposes. It features striking red veins and a tangy flavor, perfect for salads and garnishes.",
+    "medical_uses": {
+      "Rich in Vitamin C": "Red-veined Sorrel is a great source of vitamin C, which aids in immune system function and collagen production.",
+      "Digestive Health": "The high oxalate content in Red-veined Sorrel may help with digestion and detoxification.",
+      "Anti-inflammatory": "The antioxidants present in Red-veined Sorrel help reduce inflammation and protect against chronic conditions."
+    },
+    "cultivation_process": {
+      "temperature": "Grows best in moderate temperatures between 50°F to 75°F (10°C to 24°C).",
+      "soil_type": "Prefers well-drained, slightly acidic soil with a pH of 6.0 to 6.5.",
+      "watering": "Water regularly to keep the soil evenly moist, especially during dry periods.",
+      "sunlight": "Thrives in full sun to partial shade, with 4 to 6 hours of sunlight daily."
+    },
+    "image": "/assests/red.png"
+  },
+  {
+    "id": 8,
+    "name": "Viroflay Spinach",
+    "description": "Viroflay spinach is known for its large, smooth, dark green leaves. It has a mild flavor and is a popular variety for both fresh and cooked dishes.",
+    "medical_uses": {
+      "Supports Bone Health": "Viroflay spinach is rich in calcium, which supports healthy bones and teeth.",
+      "Anti-oxidative Properties": "It is loaded with antioxidants, which protect the body from oxidative stress and reduce the risk of chronic diseases.",
+      "Promotes Skin Health": "The high vitamin A content in Viroflay spinach helps in maintaining healthy skin and reducing the appearance of wrinkles."
+    },
+    "cultivation_process": {
+      "temperature": "Grows best in temperatures between 50°F to 65°F (10°C to 18°C).",
+      "soil_type": "Prefers moist, fertile soil with a slightly acidic pH of 6.0 to 7.0.",
+      "watering": "Water regularly to keep the soil moist but avoid waterlogging, which can lead to root rot.",
+      "sunlight": "Prefers full sun but can tolerate partial shade in hotter climates."
+    },
+    "image": "/assests/viro.png"
+  },
+  {
+    "id": 9,
+    "name": "Giant Nobel Spinach",
+    "description": "Giant Nobel spinach is known for its large, thick leaves and exceptional resistance to bolting, making it ideal for long growing seasons.",
+    "medical_uses": {
+      "Rich in Folate": "Giant Nobel spinach is an excellent source of folate, important for cell division and healthy brain function.",
+      "Enhances Digestion": "The fiber content helps promote regular bowel movements and improve digestive health.",
+      "Promotes Healthy Hair": "Rich in iron and vitamins A and C, it supports hair growth and prevents hair thinning."
+    },
+    "cultivation_process": {
+      "temperature": "Best grown in cool temperatures, around 50°F to 60°F (10°C to 15°C).",
+      "soil_type": "Prefers well-drained, fertile soil with a slightly acidic to neutral pH (6.0 to 7.0).",
+      "watering": "Requires consistent watering to keep the soil moist, especially during the growing period.",
+      "sunlight": "Needs full sun exposure for 6 to 8 hours a day to grow optimally."
+    },
+    "image": "/assests/gia.png"
+  }
+]

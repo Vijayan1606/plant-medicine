@@ -1,29 +1,19 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import WaveBackground from "../../components/WaveBackground"; // Three.js Background
 
 export default function SpinachCultivation() {
   const [cultivationData, setCultivationData] = useState([]);
-  const [selectedCultivation, setSelectedCultivation] = useState(null);
+  const router = useRouter();
 
   // Fetch JSON Data
   useEffect(() => {
-    fetch("/spinachCultivation.json")
+    fetch("/spinachData.json")
       .then((response) => response.json())
       .then((data) => setCultivationData(data))
       .catch((error) => console.error("Error loading JSON:", error));
-  }, []);
-
-  // Close modal on 'Esc' key press
-  useEffect(() => {
-    const handleKeyDown = (event) => {
-      if (event.key === "Escape") {
-        setSelectedCultivation(null);
-      }
-    };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
   return (
@@ -43,7 +33,7 @@ export default function SpinachCultivation() {
           cultivationData.map((cultivation) => (
             <div
               key={cultivation.id}
-              onClick={() => setSelectedCultivation(cultivation)}
+              onClick={() => router.push(`/spinach/cultivation/${cultivation.id}`)}
               className="p-5 bg-white border border-green-200 rounded-lg shadow-sm cursor-pointer hover:shadow-lg transition-all duration-300"
             >
               <img
@@ -62,32 +52,6 @@ export default function SpinachCultivation() {
           </div>
         )}
       </div>
-
-      {/* Cultivation Details Modal */}
-      {selectedCultivation && (
-        <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 backdrop-blur-sm z-50">
-          <div className="bg-white p-6 rounded-2xl shadow-lg max-w-lg text-center animate-fade-in">
-            <img
-              src={selectedCultivation.image}
-              alt={selectedCultivation.name}
-              className="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h2 className="text-3xl font-bold text-green-700">{selectedCultivation.name}</h2>
-            <p className="text-gray-700 mt-4 text-lg">{selectedCultivation.description}</p>
-            <p className="text-green-600 font-medium mt-2">🌱 Soil Type: {selectedCultivation.soil}</p>
-            <p className="text-gray-500 mt-2">💧 Watering: {selectedCultivation.watering}</p>
-            <p className="text-gray-500 mt-2">🌞 Climate: {selectedCultivation.climate}</p>
-
-            {/* Close Button */}
-            <button
-              onClick={() => setSelectedCultivation(null)}
-              className="mt-6 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition"
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      )}
     </main>
   );
 }

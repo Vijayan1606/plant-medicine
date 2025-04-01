@@ -1,29 +1,19 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import WaveBackground from "../../components/WaveBackground"; // Three.js Background
 
-export default function PlantMedicines() {
-  const [medicines, setMedicines] = useState([]);
-  const [selectedMedicine, setSelectedMedicine] = useState(null);
+export default function PlantCultivation() {
+  const [plants, setPlants] = useState([]);
+  const router = useRouter();
 
-  // Fetch JSON Data
+  // Fetch Plant Data
   useEffect(() => {
-    fetch("/plantMedicines.json")
+    fetch("/plantData.json")
       .then((response) => response.json())
-      .then((data) => setMedicines(data))
+      .then((data) => setPlants(data))
       .catch((error) => console.error("Error loading JSON:", error));
-  }, []);
-
-  // Close modal on 'Esc' key press
-  useEffect(() => {
-    const handleKeyDown = (event) => {
-      if (event.key === "Escape") {
-        setSelectedMedicine(null);
-      }
-    };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
   return (
@@ -32,71 +22,36 @@ export default function PlantMedicines() {
       <WaveBackground />
 
       {/* Title Section */}
-      <h1 className="text-4xl font-extrabold text-white mb-6">🌿 Plant Medicines</h1>
+      <h1 className="text-4xl font-extrabold text-white mb-6">🌱 Medical Plants</h1>
       <p className="text-gray-200 text-lg mb-8 text-center max-w-2xl">
-        Discover the medicinal properties of plants along with their cultivation details.
+        Learn the best practices for cultivating plants, including soil preparation, watering, and care.
       </p>
 
-      {/* Medicine List */}
+      {/* Plant Cultivation Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-5xl">
-        {medicines.length > 0 ? (
-          medicines.map((medicine) => (
+        {plants.length > 0 ? (
+          plants.map((plant) => (
             <div
-              key={medicine.id}
-              onClick={() => setSelectedMedicine(medicine)}
+              key={plant.id}
+              onClick={() => router.push(`/plants/medicines/${plant.id}`)}
               className="p-5 bg-white border border-green-200 rounded-lg shadow-sm cursor-pointer hover:shadow-lg transition-all duration-300"
             >
               <img
-                src={medicine.image}
-                alt={medicine.name}
+                src={plant.image}
+                alt={plant.name}
                 className="w-full h-40 object-cover rounded-md"
               />
-              <h2 className="text-2xl font-semibold text-green-700 mt-4">{medicine.name}</h2>
-              <p className="text-gray-600 mt-2">{medicine.uses}</p>
+              <h2 className="text-2xl font-semibold text-green-700 mt-4">{plant.name}</h2>
+              <p className="text-gray-600 mt-2">{plant.description}</p>
               <p className="text-green-600 font-medium mt-1">Click to learn more...</p>
             </div>
           ))
         ) : (
           <div className="col-span-3 flex justify-center items-center py-10">
-            <p className="text-gray-500 animate-pulse">Loading medicinal plant data...</p>
+            <p className="text-gray-500 animate-pulse">Loading plant cultivation data...</p>
           </div>
         )}
       </div>
-
-      {/* Medicine Details Modal */}
-      {selectedMedicine && (
-        <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 backdrop-blur-sm z-50">
-          <div className="bg-white p-6 rounded-2xl shadow-lg max-w-lg text-center animate-fade-in">
-            <img
-              src={selectedMedicine.image}
-              alt={selectedMedicine.name}
-              className="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h2 className="text-3xl font-bold text-green-700">{selectedMedicine.name}</h2>
-            <p className="text-gray-700 mt-4 text-lg">{selectedMedicine.uses}</p>
-
-            {/* Cultivation Details */}
-            {selectedMedicine.soil && selectedMedicine.watering && selectedMedicine.climate ? (
-              <div className="mt-4 text-left">
-                <h3 className="text-xl font-semibold text-green-600">Cultivation Details:</h3>
-                <p className="text-gray-600 mt-2"><strong>Soil:</strong> {selectedMedicine.soil}</p>
-                <p className="text-gray-600 mt-1"><strong>Watering:</strong> {selectedMedicine.watering}</p>
-                <p className="text-gray-600 mt-1"><strong>Climate:</strong> {selectedMedicine.climate}</p>
-              </div>
-            ) : (
-              <p className="text-gray-600 mt-4 italic">Cultivation details not available.</p>
-            )}
-
-            {/* Close Button */}
-            <button
-              onClick={() => setSelectedMedicine(null)}
-              className="mt-6 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition"
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      )}
     </main>
   );
 }

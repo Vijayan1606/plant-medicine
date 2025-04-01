@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,9 +8,27 @@ import { Menu, X } from "lucide-react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setIsVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos]);
 
   return (
-    <header className="fixed top-0 w-full z-20 bg-white shadow-md p-4 md:p-6 flex justify-between items-center">
+    <motion.header
+      initial={{ y: 0 }}
+      animate={{ y: isVisible ? 0 : "-100%" }}
+      transition={{ duration: 0, ease: "easeInOut" }}
+      className="fixed top-0 w-full z-20 bg-white shadow-md p-4 md:p-6 flex justify-between items-center transition-transform"
+    >
       {/* Clickable Logo & Title */}
       <motion.div
         initial={{ opacity: 0, x: -30 }}
@@ -83,6 +101,6 @@ export default function Header() {
           ))}
         </motion.div>
       )}
-    </header>
+    </motion.header>
   );
 }

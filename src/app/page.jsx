@@ -39,7 +39,7 @@ export default function Home() {
             whileHover={{ scale: 1.05 }}
             className="bg-white shadow-md p-8 rounded-2xl text-center transition"
           >
-            <h2 className="text-2xl font-semibold text-green-700">🌿 Plant Medicines</h2>
+            <h2 className="text-2xl font-semibold text-green-700">🌿 Plant Varieties</h2>
             <Link href="/plants">
               <button className="w-full mt-5 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition">
                 Explore

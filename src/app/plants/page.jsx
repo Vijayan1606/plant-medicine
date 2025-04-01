@@ -17,7 +17,7 @@ export default function PlantsPage() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="text-4xl font-extrabold text-white mb-6"
       >
-        🌿 Medical Plants
+        🌿 Plants Varieties
       </motion.h1>
 
       <motion.p
@@ -53,7 +53,7 @@ export default function PlantsPage() {
               whileTap={{ scale: 0.95 }}
               className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition-all duration-300"
             >
-              🌱 Plant Cultivation
+              🌱 Cultivation Plants
             </motion.button>
           </Link>
 
@@ -63,7 +63,7 @@ export default function PlantsPage() {
               whileTap={{ scale: 0.95 }}
               className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition-all duration-300"
             >
-              💊 Plant Medicines
+              💊 Medicines Plants
             </motion.button>
           </Link>
         </div>
